@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Semântica</title>
+</head>
+<body>
+    <h1>Exemplos de utilização da semântica</h1>
+    <p>
+        Para podermos iniciar uma produção, usamos a tag "p". <br><br>
+        Para podermos quebrar uma linha, usamos as opções "br" ou para demonstrar uma opção de quebra, temos a opção "wbr", sendo essa segunda uma quebra não obrigatória. <br><br>
+        <pre>Usando  a   tag   "pre" os   espaçamentos são    respeitados    conforme      inseridos.</pre><br><br>
+        Quando tratamos de falar sobre algum código de linguagem, usamos a tag "code" como por exemplo: <br><br>
+        Para determinar uma variável em JavaScript devemos usar os comandos <code>var</code> ou então o comando <code>let</code>. <br><br>
+        Existem as opções "strong" e "em" para que sejam destacados trechos específicos de um texto. <br><br> O <strong>principal</strong> objetivo é <em>enfatizar</em> algo que esteja sendo escrito. <br><br>
+        Além disso, podemos usar as "abbr" para abreviarmos algo, "dfn" para dar uma definição, "ins" para inserimos uma nova informação ao texto, "del" para informar que o trecho não faz mais parte do texto e o "s" para informar que o trecho não está mais correto. <br><br>
+   </p>
+   <p>
+       Usamos o comando "blockquote" para fazermos citações em bloco e o comando "q" para citações em linha, abaixo iremos apresentar dois exemplos: <br><br>
+
+       Paulo Carvalho: <blockquote>
+           <em>"O maior próposito da vida humana é nascer, crescer, se reproduzir e morrer."</em>
+       </blockquote>
+       <q><em>Podemos citar isso em todas as ocasiões</em></q> <br><br>
+
+       Existe o comando "mark" para poder destacar algo no texto: <br><br>
+
+       O deputado federal informou que em sua casa <mark>não foram encontradas provas</mark> de sua participação no crime. <br><br>
+
+       <a href="#brasil">Verifique abaixo</a> <br><br>
+
+       Usaremos exemplos de abreviações abaixo: <br><br>
+       <abbr title="Club de Regatas Vasco da Gama">CRVG</abbr> - <del>É o time que detêm o menor número de rebaixamentos do RJ.</del><ins cite="www.globoesporte.globo.com/vasco/" datetime="26-03-2021"> É o time que detêm o maior número de rebaixamentos do RJ.</ins><br><br>
+       <s>No total são 02 (dois) rebaixamentos.</s><ins> No total são 04 (quatro) rebaixamentos.</ins> <br><br>
+
+       O doce conhecido como <dfn>brigadeiro</dfn> é original do Brasil e leva em sua receita leite condesado, achocolatado e margarina.           
+   </p>
+   <h2>Resumindo:</h2>
+   <p>
+       p = paragráfo <br>
+       br = quebra de linha obrigatória <br>
+       wbr = quebra de linha opcional <br>
+       pre = tag que respeita os espaçamentos dados <br>
+       code = tag que demonstra o código usado pela linguagem <br>
+       strong = coloca o trecho em negrito <br>
+       em = coloca o trecho em itálico <br>
+       abbr = serve para abreviar algo <br>
+       dfn = faz uma definição <br>
+       ins = serve para informar que aquele trecho foi inserido <br>
+       del = serve para informar que aquele trecho foi removido <br>
+       s = serve para informar que aquele trecho não está mais correto <br>
+       blockquote = serve para realizar uma citação em bloco, geralmente informando o autor antes <br>
+       q = serve para realizar a citação em linha <br>
+       mark = serve para destacar um trecho do texto <br>
+       cite = serve para informar a origem da informação <br>
+       datetime = serve para informar o horário da modificação realizada <br>
+
+   </p>
+
+   <iframe src="http://netvasco.com" frameborder="1"></iframe>
+   <a href="http://instagram.com" target="_blank">Instagram</a>
+   <a href="http://instagram.com" target="_self">Instagram</a>
+   <a href="http://instagram.com" target="_top">Instagram</a><br><br>
+   <h2 id="brasil">O Mundo Mágico do Brasil</h2>
+   <p>Seguimos nosso programa de testes avaliando dessa forma a utlização de âncoras usando invés do link na href, uma hashtag.</p> <br><br>
+
+   <table>
+       <caption>Campeões do mundo</caption>
+       <colgroup>
+        <col span="2" style="background-color: lightcoral;">
+       <thead>
+       <tr>
+        <th>País</th>
+        <th>Ano</th>
+        <th>Nomeação</th>
+       </tr>
+       </thead>
+       <tbody>
+       <tr>
+        <td>Brasil</td>
+        <td>2002</td>
+        <td>Pentacampeão</td>
+       </tr>
+       <tr>
+        <td>Itália</td>
+        <td>2006</td>
+        <td>Tetracampeão</td>
+       </tr>
+       <tr>
+        <td>Espanha</td>  
+        <td>2010</td>
+        <td>Campeão</td>
+       </tr>
+       <tr>
+           <td>Alemanha</td>
+           <td>2014</td>
+           <td>Tetracampeão</td>
+       </tr>
+       <tr>
+        <td>França</td>
+        <td>2018</td>
+        <td>Bicampeão</td>
+    </tr>
+       </tbody>
+       <tfoot>
+           <tr>
+           <td rowspan="3">Atualizado em 2021</td>
+           </tr>
+       </tfoot> 
+   </table>
+   </body>
+</html>
