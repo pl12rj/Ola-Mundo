@@ -12,3 +12,12 @@ Num | Nome | Nota
 2 | Paulo | 10
 3 | Giovanna | 9
 4 | Júlia | 6
+
+```
+var nome = Paulo
+var nome1 = Giovanna
+var nome2 = Júlia
+
+alert(nome)
+
+```
